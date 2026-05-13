@@ -1,4 +1,4 @@
-# Finsol — NestJS + RabbitMQ + Telegram microservices
+# Financial Solutions — NestJS + RabbitMQ + Telegram microservices
 
 Монорепо из трёх сервисов на NestJS, общающихся через RabbitMQ. Producer принимает HTTP-события и идемпотентно публикует их в брокер, Consumer форвардит в очередь уведомлений, Notification отправляет сообщения в Telegram.
 
